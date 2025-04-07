@@ -11,8 +11,16 @@ public class Solution {
         for (int i = 0; i < k - 1; ++i) {
             if (firstNode.next != null) {
                 firstNode = firstNode.next;
+            } else {
+                return null;
             }
-            else {
-                secondNode = 
+        }
+
+        while (firstNode.next != null) {
+            firstNode = firstNode.next;
+            secondNode = secondNode.next;
+        }
+
+        return secondNode;
     }
 }
