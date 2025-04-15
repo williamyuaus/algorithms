@@ -1,4 +1,4 @@
-package Binary_Tree.MirrorOfBinaryTree;
+package Tree.MirrorOfBinaryTree;
 
 import utils.BinaryTreeNode;
 

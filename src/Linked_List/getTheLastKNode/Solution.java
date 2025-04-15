@@ -1,5 +1,7 @@
 package Linked_List.getTheLastKNode;
 
+import utils.ListNode;
+
 public class Solution {
     public ListNode findKthToTail(ListNode head, int k) {
         if (head == null || k == 0) {

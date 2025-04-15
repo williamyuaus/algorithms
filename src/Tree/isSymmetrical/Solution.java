@@ -1,5 +1,7 @@
 
-package Binary_Tree.isSymmetrical;
+package Tree.isSymmetrical;
+
+import utils.BinaryTreeNode;
 
 public class Solution {
     public boolean isSymmetrical(BinaryTreeNode pRoot) {
