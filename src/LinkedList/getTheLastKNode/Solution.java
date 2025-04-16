@@ -1,4 +1,4 @@
-package Linked_List.getTheLastKNode;
+package LinkedList.getTheLastKNode;
 
 import utils.ListNode;
 
